@@ -262,6 +262,7 @@ function validMime (type) {
 
 /***/ },
 
+<<<<<<< HEAD
 /***/ 821
 (module, exports, __webpack_require__) {
 
@@ -373,6 +374,9 @@ exports = module.exports = new Base64Id();
 /***/ },
 
 /***/ 554
+=======
+/***/ 381
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 (module) {
 
 
@@ -21133,7 +21137,11 @@ function vary (res, field) {
 
 /***/ },
 
+<<<<<<< HEAD
 /***/ 231
+=======
+/***/ 820
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 (module) {
 
 
@@ -21195,6 +21203,7 @@ module.exports = Limiter;
 
 /***/ },
 
+<<<<<<< HEAD
 /***/ 982
 (module) {
 
@@ -21202,6 +21211,8 @@ module.exports = __WEBPACK_EXTERNAL_createRequire_require("crypto");
 
 /***/ },
 
+=======
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /***/ 896
 (module) {
 
@@ -21244,7 +21255,11 @@ module.exports = __WEBPACK_EXTERNAL_createRequire_require("util");
 
 /***/ },
 
+<<<<<<< HEAD
 /***/ 856
+=======
+/***/ 764
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 (__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -21262,7 +21277,11 @@ exports.decodePayloadAsBinary = decodePayloadAsBinary;
 /**
  * Module dependencies.
  */
+<<<<<<< HEAD
 var utf8 = __webpack_require__(637);
+=======
+var utf8 = __webpack_require__(865);
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /**
  * Current protocol version.
  */
@@ -21675,7 +21694,11 @@ function decodePayloadAsBinary(data, binaryType, callback) {
 
 /***/ },
 
+<<<<<<< HEAD
 /***/ 637
+=======
+/***/ 865
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 (module) {
 
 
@@ -21961,6 +21984,7 @@ var accepts_namespaceFn = () => {
 	return __webpack_require__(9);
 };
 
+<<<<<<< HEAD
 // EXTERNAL MODULE: ./node_modules/.pnpm/base64id@2.0.0/node_modules/base64id/lib/base64id.js
 var lib_base64id_namespaceFn = () => {
 	return __webpack_require__(821);
@@ -21973,6 +21997,15 @@ var fallback_namespaceFn = () => {
 
 // MODULE: ./node_modules/.pnpm/bufferutil@4.1.0/node_modules/bufferutil/index.js
 var bufferutil_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// EXTERNAL MODULE: ./node_modules/.pnpm/bufferutil@4.2.0/node_modules/bufferutil/fallback.js
+var fallback_namespaceFn = () => {
+	return __webpack_require__(381);
+};
+
+// MODULE: ./node_modules/.pnpm/bufferutil@4.2.0/node_modules/bufferutil/index.js
+var bufferutil_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 try {
@@ -21984,7 +22017,11 @@ try {
 });
 
 // MODULE: ./node_modules/.pnpm/cookie@0.7.2/node_modules/cookie/index.js
+<<<<<<< HEAD
 var cookie_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var cookie_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var __webpack_unused_export__;
 /*!
  * cookie
@@ -22339,8 +22376,13 @@ var node_gyp_build_namespaceFn = () => {
 	return __webpack_require__(173);
 };
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/cluster-adapter.js
 var cluster_adapter_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/cluster-adapter.js
+var cluster_adapter_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __rest = (this && this.__rest) || function (s, e) {
     var t = {};
@@ -23022,8 +23064,13 @@ exports.ClusterAdapterWithHeartbeat = ClusterAdapterWithHeartbeat;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/contrib/yeast.js
 var yeast_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/contrib/yeast.js
+var yeast_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var __webpack_unused_export__;
 // imported from https://github.com/unshiftio/yeast
 
@@ -23082,8 +23129,13 @@ for (; i < length; i++)
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/in-memory-adapter.js
 var in_memory_adapter_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/in-memory-adapter.js
+var in_memory_adapter_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var _a;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
@@ -23483,8 +23535,13 @@ function shouldIncludePacket(sessionRooms, opts) {
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/index.js
 var socket_io_adapter_dist_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/socket.io-adapter@2.5.8_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io-adapter/dist/index.js
+var socket_io_adapter_dist_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var __webpack_unused_export__;
 
 __webpack_unused_export__ = ({ value: true });
@@ -23505,7 +23562,11 @@ var utf_8_validate_fallback_namespaceFn = () => {
 };
 
 // MODULE: ./node_modules/.pnpm/utf-8-validate@6.0.6/node_modules/utf-8-validate/index.js
+<<<<<<< HEAD
 var utf_8_validate_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var utf_8_validate_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 try {
@@ -23517,7 +23578,11 @@ try {
 });
 
 // MODULE: ./node_modules/.pnpm/uuid-random@1.3.2/node_modules/uuid-random/index.js
+<<<<<<< HEAD
 var uuid_random_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var uuid_random_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 (function(){
@@ -23636,8 +23701,13 @@ var uuid_random_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(modul
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/ws/index.js
 var ws_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/ws/index.js
+var ws_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 const createWebSocketStream = (stream_namespaceFn());
@@ -23663,8 +23733,13 @@ module.exports = WebSocket;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/ws/lib/buffer-util.js
 var buffer_util_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/ws/lib/buffer-util.js
+var buffer_util_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 const { EMPTY_BUFFER } = (constants_namespaceFn());
@@ -23799,8 +23874,13 @@ if (!process.env.WS_NO_BUFFER_UTIL) {
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/ws/lib/constants.js
 var constants_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/ws/lib/constants.js
+var constants_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 const BINARY_TYPES = ['nodebuffer', 'arraybuffer', 'fragments'];
@@ -23823,8 +23903,13 @@ module.exports = {
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/ws/lib/event-target.js
 var event_target_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/ws/lib/event-target.js
+var event_target_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 const { kForOnEventAttribute, kListener } = (constants_namespaceFn());
@@ -24120,8 +24205,13 @@ function callListener(listener, thisArg, event) {
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/ws/lib/extension.js
 var extension_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/ws/lib/extension.js
+var extension_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 const { tokenChars } = (validation_namespaceFn());
@@ -24328,6 +24418,7 @@ module.exports = { format, parse };
 
 });
 
+<<<<<<< HEAD
 // EXTERNAL MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/ws/lib/limiter.js
 var limiter_namespaceFn = () => {
 	return __webpack_require__(231);
@@ -24335,6 +24426,15 @@ var limiter_namespaceFn = () => {
 
 // MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/ws/lib/permessage-deflate.js
 var permessage_deflate_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// EXTERNAL MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/ws/lib/limiter.js
+var limiter_namespaceFn = () => {
+	return __webpack_require__(820);
+};
+
+// MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/ws/lib/permessage-deflate.js
+var permessage_deflate_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 const zlib = (external_zlib_namespaceFn());
@@ -24868,8 +24968,13 @@ function inflateOnError(err) {
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/ws/lib/receiver.js
 var receiver_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/ws/lib/receiver.js
+var receiver_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 const { Writable } = (external_stream_namespaceFn());
@@ -25616,8 +25721,13 @@ module.exports = Receiver;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/ws/lib/sender.js
 var sender_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/ws/lib/sender.js
+var sender_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /* eslint no-unused-vars: ["error", { "varsIgnorePattern": "^Duplex" }] */
 
 
@@ -26228,8 +26338,13 @@ function onError(sender, err, cb) {
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/ws/lib/stream.js
 var stream_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/ws/lib/stream.js
+var stream_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /* eslint no-unused-vars: ["error", { "varsIgnorePattern": "^WebSocket$" }] */
 
 
@@ -26394,8 +26509,13 @@ module.exports = createWebSocketStream;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/ws/lib/subprotocol.js
 var subprotocol_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/ws/lib/subprotocol.js
+var subprotocol_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 const { tokenChars } = (validation_namespaceFn());
@@ -26461,8 +26581,13 @@ module.exports = { parse };
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/ws/lib/validation.js
 var validation_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/ws/lib/validation.js
+var validation_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 const { isUtf8 } = (external_buffer_namespaceFn());
@@ -26618,8 +26743,13 @@ if (isUtf8) {
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/ws/lib/websocket-server.js
 var websocket_server_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/ws/lib/websocket-server.js
+var websocket_server_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /* eslint no-unused-vars: ["error", { "varsIgnorePattern": "^Duplex$", "caughtErrors": "none" }] */
 
 
@@ -27185,8 +27315,13 @@ function abortHandshakeOrEmitwsClientError(
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/ws/lib/websocket.js
 var lib_websocket_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/ws@8.21.3_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/ws/lib/websocket.js
+var lib_websocket_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /* eslint no-unused-vars: ["error", { "varsIgnorePattern": "^Duplex|Readable$", "caughtErrors": "none" }] */
 
 
@@ -28598,6 +28733,7 @@ function socketOnError() {
 });
 
 // MODULE: external "buffer"
+<<<<<<< HEAD
 var external_buffer_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
 module.exports = __WEBPACK_EXTERNAL_createRequire_require("buffer");
 });
@@ -28609,6 +28745,19 @@ var external_crypto_namespaceFn = () => {
 
 // MODULE: external "events"
 var external_events_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var external_buffer_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+module.exports = __WEBPACK_EXTERNAL_createRequire_require("buffer");
+});
+
+// MODULE: external "crypto"
+var external_crypto_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+module.exports = __WEBPACK_EXTERNAL_createRequire_require("crypto");
+});
+
+// MODULE: external "events"
+var external_events_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 module.exports = __WEBPACK_EXTERNAL_createRequire_require("events");
 });
 
@@ -28618,17 +28767,29 @@ var external_fs_namespaceFn = () => {
 };
 
 // MODULE: external "http"
+<<<<<<< HEAD
 var external_http_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var external_http_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 module.exports = __WEBPACK_EXTERNAL_createRequire_require("http");
 });
 
 // MODULE: external "https"
+<<<<<<< HEAD
 var external_https_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var external_https_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 module.exports = __WEBPACK_EXTERNAL_createRequire_require("https");
 });
 
 // MODULE: external "net"
+<<<<<<< HEAD
 var external_net_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var external_net_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 module.exports = __WEBPACK_EXTERNAL_createRequire_require("net");
 });
 
@@ -28638,7 +28799,11 @@ var external_path_namespaceFn = () => {
 };
 
 // MODULE: external "process"
+<<<<<<< HEAD
 var external_process_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var external_process_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 module.exports = __WEBPACK_EXTERNAL_createRequire_require("process");
 });
 
@@ -28648,22 +28813,38 @@ var external_querystring_namespaceFn = () => {
 };
 
 // MODULE: external "stream"
+<<<<<<< HEAD
 var external_stream_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var external_stream_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 module.exports = __WEBPACK_EXTERNAL_createRequire_require("stream");
 });
 
 // MODULE: external "timers"
+<<<<<<< HEAD
 var external_timers_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var external_timers_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 module.exports = __WEBPACK_EXTERNAL_createRequire_require("timers");
 });
 
 // MODULE: external "tls"
+<<<<<<< HEAD
 var external_tls_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var external_tls_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 module.exports = __WEBPACK_EXTERNAL_createRequire_require("tls");
 });
 
 // MODULE: external "url"
+<<<<<<< HEAD
 var external_url_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var external_url_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 module.exports = __WEBPACK_EXTERNAL_createRequire_require("url");
 });
 
@@ -28673,12 +28854,20 @@ var external_util_namespaceFn = () => {
 };
 
 // MODULE: external "zlib"
+<<<<<<< HEAD
 var external_zlib_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var external_zlib_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 module.exports = __WEBPACK_EXTERNAL_createRequire_require("zlib");
 });
 
 // MODULE: ./node_modules/.pnpm/engine.io-parser@5.2.3/node_modules/engine.io-parser/build/cjs/commons.js
+<<<<<<< HEAD
 var commons_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var commons_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var __webpack_unused_export__;
 
 __webpack_unused_export__ = ({ value: true });
@@ -28703,7 +28892,11 @@ exports.ERROR_PACKET = ERROR_PACKET;
 });
 
 // MODULE: ./node_modules/.pnpm/engine.io-parser@5.2.3/node_modules/engine.io-parser/build/cjs/decodePacket.js
+<<<<<<< HEAD
 var decodePacket_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var decodePacket_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var __webpack_unused_export__;
 
 __webpack_unused_export__ = ({ value: true });
@@ -28768,7 +28961,11 @@ const mapBinary = (data, binaryType) => {
 });
 
 // MODULE: ./node_modules/.pnpm/engine.io-parser@5.2.3/node_modules/engine.io-parser/build/cjs/encodePacket.js
+<<<<<<< HEAD
 var encodePacket_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var encodePacket_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var __webpack_unused_export__;
 
 __webpack_unused_export__ = ({ value: true });
@@ -28812,16 +29009,26 @@ function encodePacketToBinary(packet, callback) {
 });
 
 // MODULE: ./node_modules/.pnpm/engine.io-parser@5.2.3/node_modules/engine.io-parser/build/cjs/index.js
+<<<<<<< HEAD
 var cjs_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var cjs_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.decodePayload = exports.decodePacket = exports.encodePayload = exports.encodePacket = exports.protocol = void 0;
 exports.createPacketEncoderStream = createPacketEncoderStream;
 exports.createPacketDecoderStream = createPacketDecoderStream;
 const encodePacket_js_1 = (encodePacket_namespaceFn());
+<<<<<<< HEAD
 Object.defineProperty(exports, "encodePacket", ({ enumerable: true, get: function () { return encodePacket_js_1.encodePacket; } }));
 const decodePacket_js_1 = (decodePacket_namespaceFn());
 Object.defineProperty(exports, "decodePacket", ({ enumerable: true, get: function () { return decodePacket_js_1.decodePacket; } }));
+=======
+Object.defineProperty(exports, "encodePacket", { enumerable: true, get: function () { return encodePacket_js_1.encodePacket; } });
+const decodePacket_js_1 = (decodePacket_namespaceFn());
+Object.defineProperty(exports, "decodePacket", { enumerable: true, get: function () { return decodePacket_js_1.decodePacket; } });
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 const commons_js_1 = (commons_namespaceFn());
 const SEPARATOR = String.fromCharCode(30); // see https://en.wikipedia.org/wiki/Delimiter#ASCII_delimited_text
 const encodePayload = (packets, callback) => {
@@ -28980,8 +29187,13 @@ exports.protocol = 4;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/contrib/base64id.js
 var base64id_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/contrib/base64id.js
+var base64id_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var __webpack_unused_export__;
 
 // imported from https://github.com/faeldt/base64id/blob/af13114809291393846a56eddbb1ac2035ae397c/lib/base64id.js
@@ -29074,8 +29286,13 @@ exports.base64id = new Base64Id();
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/engine.io.js
 var engine_io_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/engine.io.js
+var engine_io_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -29119,7 +29336,11 @@ exports.listen = listen;
 exports.attach = attach;
 const http_1 = (external_http_namespaceFn());
 const server_1 = (server_namespaceFn());
+<<<<<<< HEAD
 Object.defineProperty(exports, "Server", ({ enumerable: true, get: function () { return server_1.Server; } }));
+=======
+Object.defineProperty(exports, "Server", { enumerable: true, get: function () { return server_1.Server; } });
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 const index_1 = __importDefault((transports_namespaceFn()));
 exports.transports = index_1.default;
 const parser = __importStar((cjs_namespaceFn()));
@@ -29169,6 +29390,7 @@ function attach(server, options) {
 
 });
 
+<<<<<<< HEAD
 // EXTERNAL MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/parser-v3/index.js
 var parser_v3_namespaceFn = () => {
 	return __webpack_require__(856);
@@ -29176,6 +29398,15 @@ var parser_v3_namespaceFn = () => {
 
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/server.js
 var server_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// EXTERNAL MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/parser-v3/index.js
+var parser_v3_namespaceFn = () => {
+	return __webpack_require__(764);
+};
+
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/server.js
+var server_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -30006,8 +30237,13 @@ function checkInvalidHeaderChar(val) {
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/socket.js
 var socket_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/socket.js
+var socket_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -30038,6 +30274,26 @@ class Socket extends events_1.EventEmitter {
         this.packetsFn = [];
         this.sentCallbackFn = [];
         this.cleanupFn = [];
+<<<<<<< HEAD
+=======
+        /**
+         * Timer used to detect an expired heartbeat.
+         *
+         * For protocol v3, the timer is reset after each client PING.
+         * For protocol v4, the timer is set after sending a server PING and is
+         * cleared once the matching client PONG is received.
+         */
+        this.pingTimeoutTimer = null;
+        /**
+         * Timer used to schedule the next server PING (only for protocol v4).
+         */
+        this.pingIntervalTimer = null;
+        /**
+         * Whether the current protocol v4 ping timeout has already been extended
+         * because another packet was received while waiting for a PONG.
+         */
+        this.hasRefreshedPingTimeout = false;
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
         this.id = id;
         this.server = server;
         this.request = req;
@@ -30055,8 +30311,11 @@ class Socket extends events_1.EventEmitter {
             // TODO there is currently no way to get the IP address of the client when it connects with WebTransport
             //  see https://github.com/fails-components/webtransport/issues/114
         }
+<<<<<<< HEAD
         this.pingTimeoutTimer = null;
         this.pingIntervalTimer = null;
+=======
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
         this.setTransport(transport);
         this.onOpen();
     }
@@ -30103,6 +30362,17 @@ class Socket extends events_1.EventEmitter {
         // export packet event
         debug(`received packet ${packet.type}`);
         this.emit("packet", packet);
+<<<<<<< HEAD
+=======
+        if (this.protocol !== 3 &&
+            this.pingTimeoutTimer !== null &&
+            !this.hasRefreshedPingTimeout &&
+            packet.type !== "pong") {
+            debug("got packet while waiting for pong - refreshing ping timeout");
+            this.pingTimeoutTimer.refresh();
+            this.hasRefreshedPingTimeout = true;
+        }
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
         switch (packet.type) {
             case "ping":
                 if (this.protocol !== 3) {
@@ -30121,6 +30391,10 @@ class Socket extends events_1.EventEmitter {
                 }
                 debug("got pong");
                 (0, timers_1.clearTimeout)(this.pingTimeoutTimer);
+<<<<<<< HEAD
+=======
+                this.pingTimeoutTimer = null;
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
                 (_b = this.pingIntervalTimer) === null || _b === void 0 ? void 0 : _b.refresh();
                 this.emit("heartbeat");
                 break;
@@ -30152,6 +30426,10 @@ class Socket extends events_1.EventEmitter {
     schedulePing() {
         this.pingIntervalTimer = (0, timers_1.setTimeout)(() => {
             debug("writing ping packet - expecting pong within %sms", this.server.opts.pingTimeout);
+<<<<<<< HEAD
+=======
+            this.hasRefreshedPingTimeout = false;
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
             this.sendPacket("ping");
             this.resetPingTimeout();
         }, this.server.opts.pingInterval);
@@ -30311,6 +30589,10 @@ class Socket extends events_1.EventEmitter {
         // ensure transport won't stay open
         this.transport.close();
         (0, timers_1.clearTimeout)(this.pingTimeoutTimer);
+<<<<<<< HEAD
+=======
+        this.pingTimeoutTimer = null;
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
     }
     /**
      * Called upon transport considered closed.
@@ -30475,8 +30757,13 @@ exports.Socket = Socket;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transport.js
 var transport_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transport.js
+var transport_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -30637,8 +30924,13 @@ Transport.upgradesTo = [];
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/index.js
 var transports_uws_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/index.js
+var transports_uws_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const polling_1 = (transports_uws_polling_namespaceFn());
@@ -30650,8 +30942,13 @@ exports["default"] = {
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/polling.js
 var transports_uws_polling_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/polling.js
+var transports_uws_polling_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -31023,8 +31320,13 @@ exports.Polling = Polling;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/websocket.js
 var transports_uws_websocket_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports-uws/websocket.js
+var transports_uws_websocket_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -31104,8 +31406,13 @@ exports.WebSocket = WebSocket;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/index.js
 var transports_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/index.js
+var transports_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const polling_1 = (polling_namespaceFn());
@@ -31132,8 +31439,13 @@ polling.upgradesTo = ["websocket", "webtransport"];
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/polling-jsonp.js
 var polling_jsonp_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/polling-jsonp.js
+var polling_jsonp_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -31211,8 +31523,13 @@ exports.JSONP = JSONP;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/polling.js
 var polling_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/polling.js
+var polling_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -31556,8 +31873,13 @@ exports.Polling = Polling;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/websocket.js
 var websocket_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/websocket.js
+var websocket_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -31657,8 +31979,13 @@ exports.WebSocket = WebSocket;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/webtransport.js
 var webtransport_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/transports/webtransport.js
+var webtransport_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -31728,8 +32055,13 @@ exports.WebTransport = WebTransport;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/userver.js
 var userver_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/userver.js
+var userver_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -31739,6 +32071,10 @@ exports.uServer = void 0;
 const debug_1 = __importDefault((src_namespaceFn()));
 const server_1 = (server_namespaceFn());
 const transports_uws_1 = __importDefault((transports_uws_namespaceFn()));
+<<<<<<< HEAD
+=======
+const objectFromEntries_1 = (objectFromEntries_namespaceFn());
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 const debug = (0, debug_1.default)("engine:uws");
 /**
  * An Engine.IO server based on the `uWebSockets.js` package.
@@ -31756,7 +32092,11 @@ class uServer extends server_1.BaseServer {
         req.method = req.getMethod().toUpperCase();
         req.url = req.getUrl();
         const params = new URLSearchParams(req.getQuery());
+<<<<<<< HEAD
         req._query = Object.fromEntries(params.entries());
+=======
+        req._query = (0, objectFromEntries_1.objectFromEntries)(params.entries());
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
         req.headers = {};
         req.forEach((key, value) => {
             req.headers[key] = value;
@@ -32026,8 +32366,13 @@ class ResponseWrapper {
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/engine.io@6.6.10_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/engine.io/build/utils/objectFromEntries.js
 var objectFromEntries_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/engine.io@6.6.11_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/engine.io/build/utils/objectFromEntries.js
+var objectFromEntries_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var __webpack_unused_export__;
 
 __webpack_unused_export__ = ({ value: true });
@@ -32046,7 +32391,11 @@ exports.objectFromEntries = Object.fromEntries ||
 });
 
 // MODULE: ./node_modules/.pnpm/socket.io-parser@4.2.7/node_modules/socket.io-parser/build/cjs/binary.js
+<<<<<<< HEAD
 var cjs_binary_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var cjs_binary_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var __webpack_unused_export__;
 
 __webpack_unused_export__ = ({ value: true });
@@ -32142,7 +32491,11 @@ function _reconstructPacket(data, buffers) {
 });
 
 // MODULE: ./node_modules/.pnpm/socket.io-parser@4.2.7/node_modules/socket.io-parser/build/cjs/index.js
+<<<<<<< HEAD
 var build_cjs_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var build_cjs_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -32513,7 +32866,11 @@ function isPacketValid(packet) {
 });
 
 // MODULE: ./node_modules/.pnpm/socket.io-parser@4.2.7/node_modules/socket.io-parser/build/cjs/is-binary.js
+<<<<<<< HEAD
 var is_binary_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var is_binary_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var __webpack_unused_export__;
 
 __webpack_unused_export__ = ({ value: true });
@@ -32572,6 +32929,7 @@ function hasBinary(obj, toJSON) {
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/broadcast-operator.js
 var broadcast_operator_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
 var __webpack_unused_export__;
@@ -32580,6 +32938,20 @@ __webpack_unused_export__ = ({ value: true });
 __webpack_unused_export__ = exports.BroadcastOperator = void 0;
 const socket_types_1 = (socket_types_namespaceFn());
 const socket_io_parser_1 = (build_cjs_namespaceFn());
+=======
+// MODULE: ./node_modules/.pnpm/socket.io@4.8.4_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/broadcast-operator.js
+var broadcast_operator_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.RemoteSocket = exports.BroadcastOperator = void 0;
+const socket_types_1 = (socket_types_namespaceFn());
+const socket_io_parser_1 = (build_cjs_namespaceFn());
+const debug_1 = __importDefault((src_namespaceFn()));
+const debug = (0, debug_1.default)("socket.io:broadcast-operator");
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 class BroadcastOperator {
     constructor(adapter, rooms = new Set(), exceptRooms = new Set(), flags = {}) {
         this.adapter = adapter;
@@ -32755,6 +33127,17 @@ class BroadcastOperator {
         let responses = [];
         const timer = setTimeout(() => {
             timedOut = true;
+<<<<<<< HEAD
+=======
+            debug("operation has timed out");
+            // @ts-expect-error
+            const packetId = packet.id;
+            if (packetId !== undefined) {
+                this.adapter.nsp.sockets.forEach((socket) => {
+                    socket.acks.delete(packetId);
+                });
+            }
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
             ack.apply(this, [
                 new Error("operation has timed out"),
                 this.flags.expectSingleResponse ? null : responses,
@@ -32764,6 +33147,10 @@ class BroadcastOperator {
         let actualServerCount = 0;
         let expectedClientCount = 0;
         const checkCompleteness = () => {
+<<<<<<< HEAD
+=======
+            debug("responses: servers: %d / %d ; clients: %d / %d", actualServerCount, expectedServerCount, responses.length, expectedClientCount);
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
             if (!timedOut &&
                 expectedServerCount === actualServerCount &&
                 responses.length === expectedClientCount) {
@@ -33010,12 +33397,21 @@ class RemoteSocket {
         return this;
     }
 }
+<<<<<<< HEAD
 __webpack_unused_export__ = RemoteSocket;
 
 });
 
 // MODULE: ./node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/client.js
 var client_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+exports.RemoteSocket = RemoteSocket;
+
+});
+
+// MODULE: ./node_modules/.pnpm/socket.io@4.8.4_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/client.js
+var client_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -33025,6 +33421,16 @@ exports.Client = void 0;
 const socket_io_parser_1 = (build_cjs_namespaceFn());
 const debug_1 = __importDefault((src_namespaceFn()));
 const debug = (0, debug_1.default)("socket.io:client");
+<<<<<<< HEAD
+=======
+function objectFromEntries(entries) {
+    const obj = Object.create(null);
+    for (const [key, value] of entries) {
+        obj[key] = value;
+    }
+    return obj;
+}
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 class Client {
     /**
      * Client constructor.
@@ -33240,7 +33646,11 @@ class Client {
         const url = new URL(packet.nsp, "https://socket.io");
         return {
             namespace: url.pathname,
+<<<<<<< HEAD
             authPayload: Object.fromEntries(url.searchParams.entries()),
+=======
+            authPayload: objectFromEntries(url.searchParams.entries()),
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
         };
     }
     /**
@@ -33293,7 +33703,106 @@ exports.Client = Client;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/index.js
+=======
+// MODULE: ./node_modules/.pnpm/socket.io@4.8.4_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/contrib/base64id.js
+var contrib_base64id_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+var __webpack_unused_export__;
+
+// imported from https://github.com/faeldt/base64id/blob/af13114809291393846a56eddbb1ac2035ae397c/lib/base64id.js
+/*!
+ * base64id v0.1.0
+ */
+__webpack_unused_export__ = ({ value: true });
+exports.base64id = void 0;
+/**
+ * Module dependencies
+ */
+const crypto = (external_crypto_namespaceFn());
+/**
+ * Constructor
+ */
+var Base64Id = function () { };
+/**
+ * Get random bytes
+ *
+ * Uses a buffer if available, falls back to crypto.randomBytes
+ */
+Base64Id.prototype.getRandomBytes = function (bytes) {
+    var BUFFER_SIZE = 4096;
+    var self = this;
+    bytes = bytes || 12;
+    if (bytes > BUFFER_SIZE) {
+        return crypto.randomBytes(bytes);
+    }
+    // var bytesInBuffer = parseInt(BUFFER_SIZE / bytes);
+    // var threshold = parseInt(bytesInBuffer * 0.85);
+    var bytesInBuffer = Math.floor(BUFFER_SIZE / bytes);
+    var threshold = Math.floor(bytesInBuffer * 0.85);
+    if (!threshold) {
+        return crypto.randomBytes(bytes);
+    }
+    if (this.bytesBufferIndex == null) {
+        this.bytesBufferIndex = -1;
+    }
+    if (this.bytesBufferIndex == bytesInBuffer) {
+        this.bytesBuffer = null;
+        this.bytesBufferIndex = -1;
+    }
+    // No buffered bytes available or index above threshold
+    if (this.bytesBufferIndex == -1 || this.bytesBufferIndex > threshold) {
+        if (!this.isGeneratingBytes) {
+            this.isGeneratingBytes = true;
+            crypto.randomBytes(BUFFER_SIZE, function (err, bytes) {
+                self.bytesBuffer = bytes;
+                self.bytesBufferIndex = 0;
+                self.isGeneratingBytes = false;
+            });
+        }
+        // Fall back to sync call when no buffered bytes are available
+        if (this.bytesBufferIndex == -1) {
+            return crypto.randomBytes(bytes);
+        }
+    }
+    var result = this.bytesBuffer.slice(bytes * this.bytesBufferIndex, bytes * (this.bytesBufferIndex + 1));
+    this.bytesBufferIndex++;
+    return result;
+};
+/**
+ * Generates a base64 id
+ *
+ * (Original version from socket.io <http://socket.io>)
+ */
+Base64Id.prototype.generateId = function () {
+    var rand = Buffer.alloc(15); // multiple of 3 for base64
+    if (!rand.writeInt32BE) {
+        return (Math.abs((Math.random() * Math.random() * Date.now()) | 0).toString() +
+            Math.abs((Math.random() * Math.random() * Date.now()) | 0).toString());
+    }
+    this.sequenceNumber = (this.sequenceNumber + 1) | 0;
+    rand.writeInt32BE(this.sequenceNumber, 11);
+    // @ts-expect-error
+    if (crypto.randomBytes) {
+        this.getRandomBytes(12).copy(rand);
+    }
+    else {
+        // not secure for node 0.4
+        [0, 4, 8].forEach(function (i) {
+            rand.writeInt32BE((Math.random() * Math.pow(2, 32)) | 0, i);
+        });
+    }
+    return rand.toString("base64").replace(/\//g, "_").replace(/\+/g, "-");
+};
+/**
+ * Export
+ */
+exports.base64id = new Base64Id();
+
+});
+
+// MODULE: ./node_modules/.pnpm/socket.io@4.8.4_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/index.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var socket_io_dist_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
 
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
@@ -33312,6 +33821,7 @@ var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (
 }) : function(o, v) {
     o["default"] = v;
 });
+<<<<<<< HEAD
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
@@ -33319,12 +33829,35 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
+=======
+var __importStar = (this && this.__importStar) || (function () {
+    var ownKeys = function(o) {
+        ownKeys = Object.getOwnPropertyNames || function (o) {
+            var ar = [];
+            for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;
+            return ar;
+        };
+        return ownKeys(o);
+    };
+    return function (mod) {
+        if (mod && mod.__esModule) return mod;
+        var result = {};
+        if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== "default") __createBinding(result, mod, k[i]);
+        __setModuleDefault(result, mod);
+        return result;
+    };
+})();
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Namespace = exports.Socket = exports.Server = void 0;
+<<<<<<< HEAD
 const http_1 = __importDefault((external_http_namespaceFn()));
+=======
+const http_1 = (external_http_namespaceFn()); // 'node:' prefix was added in Node.js 16
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 const fs_1 = (external_fs_namespaceFn());
 const zlib_1 = (external_zlib_namespaceFn());
 const accepts = (accepts_namespaceFn());
@@ -33334,19 +33867,40 @@ const engine_io_1 = (engine_io_namespaceFn());
 const client_1 = (client_namespaceFn());
 const events_1 = (external_events_namespaceFn());
 const namespace_1 = (namespace_namespaceFn());
+<<<<<<< HEAD
 Object.defineProperty(exports, "Namespace", ({ enumerable: true, get: function () { return namespace_1.Namespace; } }));
+=======
+Object.defineProperty(exports, "Namespace", { enumerable: true, get: function () { return namespace_1.Namespace; } });
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 const parent_namespace_1 = (parent_namespace_namespaceFn());
 const socket_io_adapter_1 = (socket_io_adapter_dist_namespaceFn());
 const parser = __importStar((build_cjs_namespaceFn()));
 const debug_1 = __importDefault((src_namespaceFn()));
 const socket_1 = (dist_socket_namespaceFn());
+<<<<<<< HEAD
 Object.defineProperty(exports, "Socket", ({ enumerable: true, get: function () { return socket_1.Socket; } }));
+=======
+Object.defineProperty(exports, "Socket", { enumerable: true, get: function () { return socket_1.Socket; } });
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 const typed_events_1 = (typed_events_namespaceFn());
 const uws_1 = (uws_namespaceFn());
 const cors_1 = __importDefault((lib_namespaceFn()));
 const debug = (0, debug_1.default)("socket.io:server");
 const clientVersion = (package_namespaceFn().rE);
+<<<<<<< HEAD
 const dotMapRegex = /\.map/;
+=======
+const CLIENT_FILES = new Set([
+    "socket.io.esm.min.js",
+    "socket.io.esm.min.js.map",
+    "socket.io.js",
+    "socket.io.js.map",
+    "socket.io.min.js",
+    "socket.io.min.js.map",
+    "socket.io.msgpack.min.js",
+    "socket.io.msgpack.min.js.map",
+]);
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /**
  * Represents a Socket.IO server.
  *
@@ -33465,10 +34019,13 @@ class Server extends typed_events_1.StrictEventEmitter {
         if (!arguments.length)
             return this._path;
         this._path = v.replace(/\/$/, "");
+<<<<<<< HEAD
         const escapedPath = this._path.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");
         this.clientPathRegex = new RegExp("^" +
             escapedPath +
             "/socket\\.io(\\.msgpack|\\.esm)?(\\.min)?\\.js(\\.map)?(?:\\?|$)");
+=======
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
         return this;
     }
     connectTimeout(v) {
@@ -33516,7 +34073,11 @@ class Server extends typed_events_1.StrictEventEmitter {
         if ("number" == typeof srv) {
             debug("creating http server and binding to %d", srv);
             const port = srv;
+<<<<<<< HEAD
             srv = http_1.default.createServer((req, res) => {
+=======
+            srv = (0, http_1.createServer)((_req, res) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
                 res.writeHead(404);
                 res.end();
             });
@@ -33548,6 +34109,7 @@ class Server extends typed_events_1.StrictEventEmitter {
         if (this._serveClient) {
             // attach static file serving
             app.get(`${this._path}/*`, (res, req) => {
+<<<<<<< HEAD
                 if (!this.clientPathRegex.test(req.getUrl())) {
                     req.setYield(true);
                     return;
@@ -33558,6 +34120,14 @@ class Server extends typed_events_1.StrictEventEmitter {
                     .replace(/\?.*$/, "")
                     .replace(/^\//, "");
                 const isMap = dotMapRegex.test(filename);
+=======
+                const filename = this.extractFilename(req.getUrl());
+                if (!CLIENT_FILES.has(filename)) {
+                    req.setYield(true);
+                    return;
+                }
+                const isMap = filename.endsWith(".map");
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
                 const type = isMap ? "map" : "source";
                 // Per the standard, ETags must be quoted:
                 // https://tools.ietf.org/html/rfc7232#section-2.3
@@ -33582,6 +34152,12 @@ class Server extends typed_events_1.StrictEventEmitter {
         }
         (0, uws_1.patchAdapter)(app);
     }
+<<<<<<< HEAD
+=======
+    extractFilename(url) {
+        return url.substring(this._path.length + 1).split("?")[0];
+    }
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
     /**
      * Initialize engine
      *
@@ -33612,6 +34188,7 @@ class Server extends typed_events_1.StrictEventEmitter {
         const evs = srv.listeners("request").slice(0);
         srv.removeAllListeners("request");
         srv.on("request", (req, res) => {
+<<<<<<< HEAD
             if (this.clientPathRegex.test(req.url)) {
                 if (this._corsMiddleware) {
                     this._corsMiddleware(req, res, () => {
@@ -33627,18 +34204,46 @@ class Server extends typed_events_1.StrictEventEmitter {
                     evs[i].call(srv, req, res);
                 }
             }
+=======
+            if (req.url.startsWith(this._path)) {
+                const filename = this.extractFilename(req.url);
+                if (CLIENT_FILES.has(filename)) {
+                    if (this._corsMiddleware) {
+                        this._corsMiddleware(req, res, () => {
+                            this.serve(filename, req, res);
+                        });
+                    }
+                    else {
+                        this.serve(filename, req, res);
+                    }
+                    return;
+                }
+            }
+            for (let i = 0; i < evs.length; i++) {
+                evs[i].call(srv, req, res);
+            }
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
         });
     }
     /**
      * Handles a request serving of client source and map
      *
+<<<<<<< HEAD
+=======
+     * @param filename
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
      * @param req
      * @param res
      * @private
      */
+<<<<<<< HEAD
     serve(req, res) {
         const filename = req.url.replace(this._path, "").replace(/\?.*$/, "");
         const isMap = dotMapRegex.test(filename);
+=======
+    serve(filename, req, res) {
+        const isMap = filename.endsWith(".map");
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
         const type = isMap ? "map" : "source";
         // Per the standard, ETags must be quoted:
         // https://tools.ietf.org/html/rfc7232#section-2.3
@@ -33741,6 +34346,14 @@ class Server extends typed_events_1.StrictEventEmitter {
      */
     of(name, fn) {
         if (typeof name === "function" || name instanceof RegExp) {
+<<<<<<< HEAD
+=======
+            if (name instanceof RegExp) {
+                if (name.global || name.sticky) {
+                    throw new Error("stateful regular expressions are not supported");
+                }
+            }
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
             const parentNsp = new parent_namespace_1.ParentNamespace(this);
             debug("initializing parent namespace %s", parentNsp.name);
             if (typeof name === "function") {
@@ -34116,8 +34729,13 @@ module.exports.Socket = socket_1.Socket;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/namespace.js
 var namespace_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/socket.io@4.8.4_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/namespace.js
+var namespace_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -34705,8 +35323,13 @@ exports.Namespace = Namespace;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/parent-namespace.js
 var parent_namespace_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/socket.io@4.8.4_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/parent-namespace.js
+var parent_namespace_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -34798,8 +35421,13 @@ class ParentBroadcastAdapter extends socket_io_adapter_1.Adapter {
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/socket-types.js
 var socket_types_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/socket.io@4.8.4_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/socket-types.js
+var socket_types_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var __webpack_unused_export__;
 
 __webpack_unused_export__ = ({ value: true });
@@ -34815,8 +35443,13 @@ exports.RESERVED_EVENTS = new Set([
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/socket.js
 var dist_socket_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/socket.io@4.8.4_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/socket.js
+var dist_socket_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -34826,7 +35459,11 @@ exports.Socket = void 0;
 const socket_io_parser_1 = (build_cjs_namespaceFn());
 const debug_1 = __importDefault((src_namespaceFn()));
 const typed_events_1 = (typed_events_namespaceFn());
+<<<<<<< HEAD
 const base64id_1 = __importDefault((lib_base64id_namespaceFn()));
+=======
+const base64id_1 = (contrib_base64id_namespaceFn());
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 const broadcast_operator_1 = (broadcast_operator_namespaceFn());
 const socket_types_1 = (socket_types_namespaceFn());
 const debug = (0, debug_1.default)("socket.io:socket");
@@ -34931,10 +35568,17 @@ class Socket extends typed_events_1.StrictEventEmitter {
                 this.id = nsp.name !== "/" ? nsp.name + "#" + client.id : client.id;
             }
             else {
+<<<<<<< HEAD
                 this.id = base64id_1.default.generateId(); // don't reuse the Engine.IO id because it's sensitive information
             }
             if (this.server._opts.connectionStateRecovery) {
                 this.pid = base64id_1.default.generateId();
+=======
+                this.id = base64id_1.base64id.generateId(); // don't reuse the Engine.IO id because it's sensitive information
+            }
+            if (this.server._opts.connectionStateRecovery) {
+                this.pid = base64id_1.base64id.generateId();
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
             }
         }
         this.handshake = this.buildHandshake(auth);
@@ -35246,14 +35890,20 @@ class Socket extends typed_events_1.StrictEventEmitter {
         debug("got packet %j", packet);
         switch (packet.type) {
             case socket_io_parser_1.PacketType.EVENT:
+<<<<<<< HEAD
                 this.onevent(packet);
                 break;
+=======
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
             case socket_io_parser_1.PacketType.BINARY_EVENT:
                 this.onevent(packet);
                 break;
             case socket_io_parser_1.PacketType.ACK:
+<<<<<<< HEAD
                 this.onack(packet);
                 break;
+=======
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
             case socket_io_parser_1.PacketType.BINARY_ACK:
                 this.onack(packet);
                 break;
@@ -35797,8 +36447,13 @@ exports.Socket = Socket;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/typed-events.js
 var typed_events_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/socket.io@4.8.4_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/typed-events.js
+var typed_events_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var __webpack_unused_export__;
 
 __webpack_unused_export__ = ({ value: true });
@@ -35884,8 +36539,13 @@ exports.StrictEventEmitter = StrictEventEmitter;
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/uws.js
 var uws_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+// MODULE: ./node_modules/.pnpm/socket.io@4.8.4_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/uws.js
+var uws_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__unused_webpack_module, exports) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -36018,6 +36678,10 @@ function serveFile(res /* : HttpResponse */, filepath) {
     };
     res.onAborted(destroyReadStream);
     readStream
+<<<<<<< HEAD
+=======
+        // @ts-expect-error FIXME
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
         .on("data", onDataChunk)
         .on("error", onError)
         .on("end", destroyReadStream);
@@ -36026,7 +36690,11 @@ function serveFile(res /* : HttpResponse */, filepath) {
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/compose-collection.js
+<<<<<<< HEAD
 var compose_collection_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var compose_collection_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -36121,7 +36789,11 @@ exports.composeCollection = composeCollection;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/compose-doc.js
+<<<<<<< HEAD
 var compose_doc_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var compose_doc_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var Document = (Document_namespaceFn());
@@ -36171,7 +36843,11 @@ exports.composeDoc = composeDoc;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/compose-node.js
+<<<<<<< HEAD
 var compose_node_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var compose_node_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var Alias = (Alias_namespaceFn());
@@ -36288,7 +36964,11 @@ exports.composeNode = composeNode;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/compose-scalar.js
+<<<<<<< HEAD
 var compose_scalar_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var compose_scalar_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -36381,7 +37061,11 @@ exports.composeScalar = composeScalar;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/composer.js
+<<<<<<< HEAD
 var composer_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var composer_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var node_process = (external_process_namespaceFn());
@@ -36610,7 +37294,11 @@ exports.Composer = Composer;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/resolve-block-map.js
+<<<<<<< HEAD
 var resolve_block_map_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var resolve_block_map_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var Pair = (Pair_namespaceFn());
@@ -36732,7 +37420,11 @@ exports.resolveBlockMap = resolveBlockMap;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/resolve-block-scalar.js
+<<<<<<< HEAD
 var resolve_block_scalar_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var resolve_block_scalar_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var Scalar = (Scalar_namespaceFn());
@@ -36937,7 +37629,11 @@ exports.resolveBlockScalar = resolveBlockScalar;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/resolve-block-seq.js
+<<<<<<< HEAD
 var resolve_block_seq_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var resolve_block_seq_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var YAMLSeq = (YAMLSeq_namespaceFn());
@@ -36993,7 +37689,11 @@ exports.resolveBlockSeq = resolveBlockSeq;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/resolve-end.js
+<<<<<<< HEAD
 var resolve_end_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var resolve_end_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 function resolveEnd(end, offset, reqSpace, onError) {
@@ -37037,7 +37737,11 @@ exports.resolveEnd = resolveEnd;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/resolve-flow-collection.js
+<<<<<<< HEAD
 var resolve_flow_collection_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var resolve_flow_collection_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -37251,7 +37955,11 @@ exports.resolveFlowCollection = resolveFlowCollection;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/resolve-flow-scalar.js
+<<<<<<< HEAD
 var resolve_flow_scalar_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var resolve_flow_scalar_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var Scalar = (Scalar_namespaceFn());
@@ -37484,7 +38192,11 @@ exports.resolveFlowScalar = resolveFlowScalar;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/resolve-props.js
+<<<<<<< HEAD
 var resolve_props_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var resolve_props_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 function resolveProps(tokens, { flow, indicator, next, offset, onError, parentIndent, startOnNewline }) {
@@ -37637,7 +38349,11 @@ exports.resolveProps = resolveProps;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/util-contains-newline.js
+<<<<<<< HEAD
 var util_contains_newline_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var util_contains_newline_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 function containsNewline(key) {
@@ -37678,7 +38394,11 @@ exports.containsNewline = containsNewline;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/util-empty-scalar-position.js
+<<<<<<< HEAD
 var util_empty_scalar_position_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var util_empty_scalar_position_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 function emptyScalarPosition(offset, before, pos) {
@@ -37711,7 +38431,11 @@ exports.emptyScalarPosition = emptyScalarPosition;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/util-flow-indent-check.js
+<<<<<<< HEAD
 var util_flow_indent_check_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var util_flow_indent_check_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var utilContainsNewline = (util_contains_newline_namespaceFn());
@@ -37733,7 +38457,11 @@ exports.flowIndentCheck = flowIndentCheck;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/compose/util-map-includes.js
+<<<<<<< HEAD
 var util_map_includes_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var util_map_includes_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -37753,7 +38481,11 @@ exports.mapIncludes = mapIncludes;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/doc/Document.js
+<<<<<<< HEAD
 var Document_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var Document_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var Alias = (Alias_namespaceFn());
@@ -38095,7 +38827,11 @@ exports.Document = Document;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/doc/anchors.js
+<<<<<<< HEAD
 var anchors_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var anchors_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -38176,7 +38912,11 @@ exports.findNewAnchor = findNewAnchor;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/doc/applyReviver.js
+<<<<<<< HEAD
 var applyReviver_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var applyReviver_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 /**
@@ -38238,7 +38978,11 @@ exports.applyReviver = applyReviver;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/doc/createNode.js
+<<<<<<< HEAD
 var createNode_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var createNode_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var Alias = (Alias_namespaceFn());
@@ -38333,7 +39077,11 @@ exports.createNode = createNode;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/doc/directives.js
+<<<<<<< HEAD
 var directives_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var directives_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -38516,7 +39264,11 @@ exports.Directives = Directives;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/errors.js
+<<<<<<< HEAD
 var errors_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var errors_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 class YAMLError extends Error {
@@ -38583,7 +39335,11 @@ exports.prettifyError = prettifyError;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/index.js
+<<<<<<< HEAD
 var dist_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var dist_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var composer = (composer_namespaceFn());
@@ -38638,7 +39394,11 @@ exports.visitAsync = visit.visitAsync;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/log.js
+<<<<<<< HEAD
 var log_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var log_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var node_process = (external_process_namespaceFn());
@@ -38662,7 +39422,11 @@ exports.warn = warn;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/nodes/Alias.js
+<<<<<<< HEAD
 var Alias_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var Alias_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var anchors = (anchors_namespaceFn());
@@ -38787,7 +39551,11 @@ exports.Alias = Alias;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/nodes/Collection.js
+<<<<<<< HEAD
 var Collection_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var Collection_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var createNode = (createNode_namespaceFn());
@@ -38943,7 +39711,11 @@ exports.isEmptyPath = isEmptyPath;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/nodes/Node.js
+<<<<<<< HEAD
 var Node_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var Node_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var applyReviver = (applyReviver_namespaceFn());
@@ -38988,7 +39760,11 @@ exports.NodeBase = NodeBase;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/nodes/Pair.js
+<<<<<<< HEAD
 var Pair_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var Pair_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var createNode = (createNode_namespaceFn());
@@ -39032,7 +39808,11 @@ exports.createPair = createPair;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/nodes/Scalar.js
+<<<<<<< HEAD
 var Scalar_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var Scalar_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -39064,7 +39844,11 @@ exports.isScalarValue = isScalarValue;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/nodes/YAMLMap.js
+<<<<<<< HEAD
 var YAMLMap_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var YAMLMap_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var stringifyCollection = (stringifyCollection_namespaceFn());
@@ -39216,7 +40000,11 @@ exports.findPair = findPair;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/nodes/YAMLSeq.js
+<<<<<<< HEAD
 var YAMLSeq_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var YAMLSeq_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var createNode = (createNode_namespaceFn());
@@ -39336,7 +40124,11 @@ exports.YAMLSeq = YAMLSeq;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/nodes/addPairToJSMap.js
+<<<<<<< HEAD
 var addPairToJSMap_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var addPairToJSMap_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var log = (log_namespaceFn());
@@ -39406,7 +40198,11 @@ exports.addPairToJSMap = addPairToJSMap;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/nodes/identity.js
+<<<<<<< HEAD
 var identity_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var identity_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 const ALIAS = Symbol.for('yaml.alias');
@@ -39464,7 +40260,11 @@ exports.isSeq = isSeq;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/nodes/toJS.js
+<<<<<<< HEAD
 var toJS_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var toJS_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -39508,7 +40308,11 @@ exports.toJS = toJS;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/parse/cst-scalar.js
+<<<<<<< HEAD
 var cst_scalar_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var cst_scalar_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var resolveBlockScalar = (resolve_block_scalar_namespaceFn());
@@ -39731,7 +40535,11 @@ exports.setScalarValue = setScalarValue;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/parse/cst-stringify.js
+<<<<<<< HEAD
 var cst_stringify_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var cst_stringify_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 /**
@@ -39799,7 +40607,11 @@ exports.stringify = stringify;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/parse/cst-visit.js
+<<<<<<< HEAD
 var cst_visit_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var cst_visit_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 const BREAK = Symbol('break visit');
@@ -39903,7 +40715,11 @@ exports.visit = visit;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/parse/cst.js
+<<<<<<< HEAD
 var cst_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var cst_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var cstScalar = (cst_scalar_namespaceFn());
@@ -40020,7 +40836,11 @@ exports.tokenType = tokenType;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/parse/lexer.js
+<<<<<<< HEAD
 var lexer_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var lexer_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var cst = (cst_namespaceFn());
@@ -40748,7 +41568,11 @@ exports.Lexer = Lexer;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/parse/line-counter.js
+<<<<<<< HEAD
 var line_counter_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var line_counter_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 /**
@@ -40794,7 +41618,11 @@ exports.LineCounter = LineCounter;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/parse/parser.js
+<<<<<<< HEAD
 var parser_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var parser_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var node_process = (external_process_namespaceFn());
@@ -41779,7 +42607,11 @@ exports.Parser = Parser;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/public-api.js
+<<<<<<< HEAD
 var public_api_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var public_api_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var composer = (composer_namespaceFn());
@@ -41891,7 +42723,11 @@ exports.stringify = stringify;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/Schema.js
+<<<<<<< HEAD
 var Schema_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var Schema_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -41935,7 +42771,11 @@ exports.Schema = Schema;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/common/map.js
+<<<<<<< HEAD
 var map_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var map_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -41959,7 +42799,11 @@ exports.map = map;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/common/null.js
+<<<<<<< HEAD
 var null_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var null_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var Scalar = (Scalar_namespaceFn());
@@ -41981,7 +42825,11 @@ exports.nullTag = nullTag;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/common/seq.js
+<<<<<<< HEAD
 var seq_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var seq_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -42005,7 +42853,11 @@ exports.seq = seq;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/common/string.js
+<<<<<<< HEAD
 var string_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var string_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var stringifyString = (stringifyString_namespaceFn());
@@ -42026,7 +42878,11 @@ exports.string = string;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/core/bool.js
+<<<<<<< HEAD
 var bool_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var bool_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var Scalar = (Scalar_namespaceFn());
@@ -42052,7 +42908,11 @@ exports.boolTag = boolTag;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/core/float.js
+<<<<<<< HEAD
 var float_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var float_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var Scalar = (Scalar_namespaceFn());
@@ -42104,7 +42964,11 @@ exports.floatNaN = floatNaN;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/core/int.js
+<<<<<<< HEAD
 var int_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var int_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var stringifyNumber = (stringifyNumber_namespaceFn());
@@ -42151,7 +43015,11 @@ exports.intOct = intOct;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/core/schema.js
+<<<<<<< HEAD
 var schema_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var schema_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var map = (map_namespaceFn());
@@ -42181,7 +43049,11 @@ exports.schema = schema;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/json/schema.js
+<<<<<<< HEAD
 var json_schema_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var json_schema_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var Scalar = (Scalar_namespaceFn());
@@ -42250,7 +43122,11 @@ exports.schema = schema;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/tags.js
+<<<<<<< HEAD
 var tags_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var tags_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var map = (map_namespaceFn());
@@ -42354,7 +43230,11 @@ exports.getTags = getTags;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/yaml-1.1/binary.js
+<<<<<<< HEAD
 var binary_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var binary_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var node_buffer = (external_buffer_namespaceFn());
@@ -42429,7 +43309,11 @@ exports.binary = binary;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/yaml-1.1/bool.js
+<<<<<<< HEAD
 var yaml_1_1_bool_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var yaml_1_1_bool_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var Scalar = (Scalar_namespaceFn());
@@ -42463,7 +43347,11 @@ exports.trueTag = trueTag;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/yaml-1.1/float.js
+<<<<<<< HEAD
 var yaml_1_1_float_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var yaml_1_1_float_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var Scalar = (Scalar_namespaceFn());
@@ -42518,7 +43406,11 @@ exports.floatNaN = floatNaN;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/yaml-1.1/int.js
+<<<<<<< HEAD
 var yaml_1_1_int_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var yaml_1_1_int_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var stringifyNumber = (stringifyNumber_namespaceFn());
@@ -42599,7 +43491,11 @@ exports.intOct = intOct;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/yaml-1.1/merge.js
+<<<<<<< HEAD
 var merge_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var merge_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -42675,7 +43571,11 @@ exports.merge = merge;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/yaml-1.1/omap.js
+<<<<<<< HEAD
 var omap_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var omap_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -42757,7 +43657,11 @@ exports.omap = omap;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/yaml-1.1/pairs.js
+<<<<<<< HEAD
 var pairs_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var pairs_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -42844,7 +43748,11 @@ exports.resolvePairs = resolvePairs;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/yaml-1.1/schema.js
+<<<<<<< HEAD
 var yaml_1_1_schema_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var yaml_1_1_schema_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var map = (map_namespaceFn());
@@ -42890,7 +43798,11 @@ exports.schema = schema;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/yaml-1.1/set.js
+<<<<<<< HEAD
 var set_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var set_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -42991,7 +43903,11 @@ exports.set = set;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/schema/yaml-1.1/timestamp.js
+<<<<<<< HEAD
 var timestamp_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var timestamp_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var stringifyNumber = (stringifyNumber_namespaceFn());
@@ -43101,7 +44017,11 @@ exports.timestamp = timestamp;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/stringify/foldFlowLines.js
+<<<<<<< HEAD
 var foldFlowLines_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var foldFlowLines_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 const FOLD_FLOW = 'flow';
@@ -43257,7 +44177,11 @@ exports.foldFlowLines = foldFlowLines;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/stringify/stringify.js
+<<<<<<< HEAD
 var stringify_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var stringify_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var anchors = (anchors_namespaceFn());
@@ -43394,7 +44318,11 @@ exports.stringify = stringify;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/stringify/stringifyCollection.js
+<<<<<<< HEAD
 var stringifyCollection_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var stringifyCollection_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -43554,7 +44482,11 @@ exports.stringifyCollection = stringifyCollection;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/stringify/stringifyComment.js
+<<<<<<< HEAD
 var stringifyComment_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var stringifyComment_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 /**
@@ -43583,7 +44515,11 @@ exports.stringifyComment = stringifyComment;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/stringify/stringifyDocument.js
+<<<<<<< HEAD
 var stringifyDocument_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var stringifyDocument_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -43675,7 +44611,11 @@ exports.stringifyDocument = stringifyDocument;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/stringify/stringifyNumber.js
+<<<<<<< HEAD
 var stringifyNumber_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var stringifyNumber_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 function stringifyNumber({ format, minFractionDigits, tag, value }) {
@@ -43707,7 +44647,11 @@ exports.stringifyNumber = stringifyNumber;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/stringify/stringifyPair.js
+<<<<<<< HEAD
 var stringifyPair_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var stringifyPair_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -43864,7 +44808,11 @@ exports.stringifyPair = stringifyPair;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/stringify/stringifyString.js
+<<<<<<< HEAD
 var stringifyString_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var stringifyString_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var Scalar = (Scalar_namespaceFn());
@@ -44207,7 +45155,11 @@ exports.stringifyString = stringifyString;
 });
 
 // MODULE: ./node_modules/.pnpm/yaml@2.9.1/node_modules/yaml/dist/visit.js
+<<<<<<< HEAD
 var visit_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
+=======
+var visit_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack_module, exports) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 var identity = (identity_namespaceFn());
@@ -44448,7 +45400,11 @@ exports.visitAsync = visitAsync;
 });
 
 // MODULE: ./node_modules/.pnpm/@socket.io+component-emitter@3.1.2/node_modules/@socket.io/component-emitter/lib/esm/index.js
+<<<<<<< HEAD
 var esm_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(__webpack_module__, __webpack_exports__) {
+=======
+var esm_namespaceFn = /*#__PURE__*/__webpack_require__.cw((__unused_webpack___webpack_module__, __webpack_exports__) => {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Emitter: () => (/* binding */ Emitter)
 /* harmony export */ });
@@ -44624,9 +45580,15 @@ Emitter.prototype.hasListeners = function(event){
 
 });
 
+<<<<<<< HEAD
 // MODULE: ./node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/package.json
 var package_namespaceFn = /*#__PURE__*/__webpack_require__.cw(function(module, exports) {
 const __WEBPACK_NAMESPACE_OBJECT__ = {"rE":"4.8.3"};
+=======
+// MODULE: ./node_modules/.pnpm/socket.io@4.8.4_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io/package.json
+var package_namespaceFn = /*#__PURE__*/__webpack_require__.cw((module) => {
+const __WEBPACK_NAMESPACE_OBJECT__ = {"rE":"4.8.4"};
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 module.exports = __WEBPACK_NAMESPACE_OBJECT__;
 });
 
@@ -44635,7 +45597,11 @@ const settings_defaultraw_namespaceObject = "# yaml-language-server: $schema=htt
 // EXTERNAL MODULE: ./node_modules/.pnpm/lodash@4.18.1/node_modules/lodash/lodash.js
 var lodash = __webpack_require__(746);
 var lodash_default = /*#__PURE__*/__webpack_require__.n(lodash);
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/util.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 // functions
 function assertEqual(val) {
@@ -45188,6 +46154,23 @@ function unwrapMessage(message) {
     return typeof message === "string" ? message : message?.message;
 }
 /* A check holds no link back to the schema it is attached to — the same check instance is shared by every clone of that schema — so the owner is stamped onto the issues a check just raised, at the only point where both are in scope. Runs on the failure path only; `start` is the issue count from before the check ran. */
+<<<<<<< HEAD
+=======
+/** The leading size checks of `defChecks` that set an upper bound, each paired with it. */
+function sizeCaps(defChecks) {
+    const caps = [];
+    for (const ch of defChecks ?? []) {
+        const d = ch._zod.def;
+        // a later check may rewrite the value
+        if (!/_(length|size)$|_equals$/.test(d.check))
+            break;
+        const max = d.maximum ?? d.length ?? d.size;
+        if (max >= 0)
+            caps.push([max, ch]);
+    }
+    return caps;
+}
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 function attachSchema(issues, start, inst) {
     var _a;
     for (let i = start; i < issues.length; i++) {
@@ -45496,7 +46479,11 @@ function constantCatch(value) {
     return fn;
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/core.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/core.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var core_a;
 
 /** A special constant with type `never` */
@@ -45639,7 +46626,11 @@ function config(newConfig) {
     return globalConfig;
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/errors.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/errors.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 /* Computing the message eagerly is expensive (pretty-printed JSON of all
@@ -46008,7 +46999,11 @@ function write_file_recursively(base, file, content) {
 
 ;// external "path"
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/memoizer.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/memoizer.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 class $ZodCyclicError extends Error {
     constructor() {
@@ -46321,7 +47316,11 @@ function isBackEdge(ctx, value) {
     return backEdges !== undefined && isRef(value) && backEdges.has(value);
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/regexes.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /* unused harmony import specifier */ var util;
 
 /**
@@ -46480,7 +47479,11 @@ const sha512_hex = /^[0-9a-fA-F]{128}$/;
 const sha512_base64 = /*@__PURE__*/ (/* unused pure expression or super */ null && (fixedBase64(86, "==")));
 const sha512_base64url = /*@__PURE__*/ (/* unused pure expression or super */ null && (fixedBase64url(86)));
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/checks.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/checks.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /* unused harmony import specifier */ var checks_core;
 /* unused harmony import specifier */ var checks_util;
 // import { $ZodType } from "./schemas.js";
@@ -47000,7 +48003,11 @@ const $ZodCheckOverwrite = /*@__PURE__*/ $constructor("$ZodCheckOverwrite", (ins
     };
 });
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/doc.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/doc.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 class Doc {
     constructor(args = [], closed = {}) {
         this.content = [];
@@ -47040,6 +48047,7 @@ class Doc {
     }
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/versions.js
 const versions_version = {
     major: 4,
@@ -47048,6 +48056,16 @@ const versions_version = {
 };
 
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/schemas.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/versions.js
+const versions_version = {
+    major: 4,
+    minor: 6,
+    patch: 7,
+};
+
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/schemas.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /* unused harmony import specifier */ var schemas_checks;
 /* unused harmony import specifier */ var schemas_core;
 /* unused harmony import specifier */ var schemas_parse;
@@ -47872,6 +48890,36 @@ const $ZodDate = /*@__PURE__*/ (/* unused pure expression or super */ null && (s
         return payload;
     };
 })));
+<<<<<<< HEAD
+=======
+// an oversized container fails its leading size checks before any element is parsed
+function capSize(inst, size) {
+    const caps = sizeCaps(inst._zod.def.checks);
+    if (!caps.length)
+        return;
+    const cap = Math.min(...caps.map((c) => c[0]));
+    const parse = inst._zod.parse;
+    inst._zod.parse = (payload, ctx) => {
+        const n = size(payload.value);
+        if (n > cap && !ctx?.skipChecks && ctx?.direction !== "backward") {
+            for (const [max, ch] of sizeCaps(inst._zod.def.checks)) {
+                if (n > max && ch._zod.def.when(payload)) {
+                    const start = payload.issues.length;
+                    ch._zod.check(payload);
+                    // the value is still the raw input, so no later check may read it
+                    payload.issues[start].continue = false;
+                    attachSchema(payload.issues, start, inst);
+                    return payload;
+                }
+            }
+        }
+        return parse(payload, ctx);
+    };
+}
+const arraySize = (input) => (Array.isArray(input) ? input.length : -1);
+const mapSize = (input) => (input instanceof Map ? input.size : -1);
+const setSize = (input) => (input instanceof Set ? input.size : -1);
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 function handleArrayResult(result, final, index) {
     if (result.issues.length) {
         final.issues.push(...prefixIssues(index, result.issues));
@@ -47917,6 +48965,10 @@ const $ZodArray = /*@__PURE__*/ $constructor("$ZodArray", (inst, def) => {
         }
         return payload; //handleArrayResultsAsync(parseResults, final);
     };
+<<<<<<< HEAD
+=======
+    capSize(inst, arraySize);
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 });
 function handlePropertyResult(result, final, key, input, optin, optout) {
     const isPresent = key in input;
@@ -48954,6 +50006,10 @@ const $ZodMap = /*@__PURE__*/ (/* unused pure expression or super */ null && (sc
             return Promise.all(proms).then(() => payload);
         return payload;
     };
+<<<<<<< HEAD
+=======
+    capSize(inst, mapSize);
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 })));
 function handleMapResult(keyResult, valueResult, final, key, input, inst, ctx) {
     if (keyResult.issues.length) {
@@ -49023,6 +50079,10 @@ const $ZodSet = /*@__PURE__*/ (/* unused pure expression or super */ null && (sc
             return Promise.all(proms).then(() => payload);
         return payload;
     };
+<<<<<<< HEAD
+=======
+    capSize(inst, setSize);
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 })));
 function handleSetResult(result, final) {
     if (result.issues.length) {
@@ -49661,7 +50721,11 @@ function handleRefineResult(result, payload, input, inst) {
     }
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/registries.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/registries.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 var registries_a;
 const $output = /*@__PURE__*/ (/* unused pure expression or super */ null && (Symbol("ZodOutput")));
 const $input = /*@__PURE__*/ (/* unused pure expression or super */ null && (Symbol("ZodInput")));
@@ -49714,7 +50778,11 @@ function registry() {
 (registries_a = globalThis).__zod_globalRegistry ?? (registries_a.__zod_globalRegistry = registry());
 const globalRegistry = globalThis.__zod_globalRegistry;
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/api.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/api.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /* unused harmony import specifier */ var api_checks;
 /* unused harmony import specifier */ var api_schemas;
 /* unused harmony import specifier */ var api_util;
@@ -50822,7 +51890,11 @@ function _stringFormat(Class, format, fnOrRegex, _params = {}) {
     return inst;
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/to-json-schema.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/to-json-schema.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 function assignProps(target, ...sources) {
@@ -51475,7 +52547,11 @@ const createStandardJSONSchemaMethod = (schema, io, processors = {}) => (params)
     return finalize(ctx, schema);
 };
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/json-schema-processors.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/json-schema-processors.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /* unused harmony import specifier */ var json_schema_processors_handleUnrepresentable;
 /* unused harmony import specifier */ var json_schema_processors_processSchema;
 /* unused harmony import specifier */ var json_schema_processors_initializeContext;
@@ -52326,7 +53402,11 @@ function toJSONSchema(input, params) {
     return json_schema_processors_finalize(ctx, input);
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/en.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/locales/en.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 const en_error = () => {
     const Sizable = {
@@ -52453,7 +53533,11 @@ const en_error = () => {
     };
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/parse.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/core/parse.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 
@@ -52630,7 +53714,11 @@ const _safeDecodeAsync = (_Err) => async (schema, value, _ctx) => {
 };
 const safeDecodeAsync = /* @__PURE__*/ _safeDecodeAsync($ZodRealError);
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/errors.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/classic/errors.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /* unused harmony import specifier */ var errors_core;
 
 
@@ -52690,7 +53778,11 @@ const ZodRealError = /*@__PURE__*/ $constructor("ZodError", errors_initializer, 
 // /** @deprecated Use `z.core.$ZodErrorMapCtx` instead. */
 // export type ErrorMapCtx = core.$ZodErrorMapCtx;
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/parse.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/classic/parse.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 const classic_parse_parse = /* @__PURE__ */ _parse(ZodRealError);
@@ -52708,7 +53800,11 @@ const parse_safeDecode = /* @__PURE__ */ _safeDecode(ZodRealError);
 const parse_safeEncodeAsync = /* @__PURE__ */ _safeEncodeAsync(ZodRealError);
 const parse_safeDecodeAsync = /* @__PURE__ */ _safeDecodeAsync(ZodRealError);
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/schemas.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/classic/schemas.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /* unused harmony import specifier */ var classic_schemas_core;
 /* unused harmony import specifier */ var classic_schemas_util;
 /* unused harmony import specifier */ var processors;
@@ -54250,7 +55346,11 @@ function preprocess(fn, schema) {
     });
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/coerce.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/classic/coerce.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /* unused harmony import specifier */ var coerce_core;
 /* unused harmony import specifier */ var coerce_schemas;
 
@@ -56646,10 +57746,17 @@ function watch_on(path) {
 
 ;// external "node:http"
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/index.js
 socket_io_dist_namespaceFn();
 
 ;// ./node_modules/.pnpm/socket.io@4.8.3_bufferutil@4.1.0_utf-8-validate@6.0.6/node_modules/socket.io/wrapper.mjs
+=======
+;// ./node_modules/.pnpm/socket.io@4.8.4_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io/dist/index.js
+socket_io_dist_namespaceFn();
+
+;// ./node_modules/.pnpm/socket.io@4.8.4_bufferutil@4.2.0_utf-8-validate@6.0.6/node_modules/socket.io/wrapper.mjs
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 const {Server: wrapper_Server, Namespace: wrapper_Namespace, Socket: wrapper_Socket} = (socket_io_dist_namespaceFn());
@@ -59767,7 +60874,11 @@ function create_syncer(config_name, config) {
     return new Preset_syncer(config_name, config.name, config.file, config.bundle_file);
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/commander@15.0.0/node_modules/commander/lib/error.js
+=======
+;// ./node_modules/.pnpm/commander@15.1.0/node_modules/commander/lib/error.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /**
  * CommanderError class
  */
@@ -59805,7 +60916,11 @@ class InvalidArgumentError extends CommanderError {
   }
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/commander@15.0.0/node_modules/commander/lib/argument.js
+=======
+;// ./node_modules/.pnpm/commander@15.1.0/node_modules/commander/lib/argument.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 class Argument {
@@ -59958,7 +61073,11 @@ function humanReadableArgName(arg) {
 
 ;// external "node:util"
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/commander@15.0.0/node_modules/commander/lib/help.js
+=======
+;// ./node_modules/.pnpm/commander@15.1.0/node_modules/commander/lib/help.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 
@@ -60050,11 +61169,23 @@ class Help {
         visibleOptions.push(helpOption); // no changes needed
       } else if (helpOption.long && !removeLong) {
         visibleOptions.push(
+<<<<<<< HEAD
           cmd.createOption(helpOption.long, helpOption.description),
         );
       } else if (helpOption.short && !removeShort) {
         visibleOptions.push(
           cmd.createOption(helpOption.short, helpOption.description),
+=======
+          cmd
+            .createOption(helpOption.long, helpOption.description)
+            .helpGroup(helpOption.helpGroupHeading),
+        );
+      } else if (helpOption.short && !removeShort) {
+        visibleOptions.push(
+          cmd
+            .createOption(helpOption.short, helpOption.description)
+            .helpGroup(helpOption.helpGroupHeading),
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
         );
       }
     }
@@ -60691,7 +61822,11 @@ class Help {
   }
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/commander@15.0.0/node_modules/commander/lib/option.js
+=======
+;// ./node_modules/.pnpm/commander@15.1.0/node_modules/commander/lib/option.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 class Option {
@@ -60709,7 +61844,11 @@ class Option {
     this.required = flags.includes('<'); // A value must be supplied when the option is specified.
     this.optional = flags.includes('['); // A value is optional when the option is specified.
     // variadic test ignores <value,...> et al which might be used to describe custom splitting of single argument
+<<<<<<< HEAD
     this.variadic = /\w\.\.\.[>\]]$/.test(flags); // The option can take multiple values.
+=======
+    this.variadic = /\p{ID_Continue}\.\.\.[>\]]$/u.test(flags); // The option can take multiple values.
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
     this.mandatory = false; // The option must have a value after parsing, which usually means it must be specified on command line.
     const optionFlags = splitOptionFlags(flags);
     this.short = optionFlags.shortFlag; // May be a short flag, undefined, or even a long flag (if option has two long flags).
@@ -61070,7 +62209,11 @@ function splitOptionFlags(flags) {
   return { shortFlag, longFlag };
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/commander@15.0.0/node_modules/commander/lib/suggestSimilar.js
+=======
+;// ./node_modules/.pnpm/commander@15.1.0/node_modules/commander/lib/suggestSimilar.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 const maxDistance = 3;
 
 function editDistance(a, b) {
@@ -61171,7 +62314,11 @@ function suggestSimilar(word, candidates) {
   return '';
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/commander@15.0.0/node_modules/commander/lib/command.js
+=======
+;// ./node_modules/.pnpm/commander@15.1.0/node_modules/commander/lib/command.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 
 
@@ -62149,7 +63296,11 @@ Expecting one of '${allowedValues.join("', '")}'`);
     // global overwrites local, like optsWithGlobals
     let source;
     this._getCommandAndAncestors().forEach((cmd) => {
+<<<<<<< HEAD
       if (cmd.getOptionValueSource(key) !== undefined) {
+=======
+      if (Object.hasOwn(cmd._optionValueSources, key)) {
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
         source = cmd.getOptionValueSource(key);
       }
     });
@@ -62942,7 +64093,11 @@ Expecting one of '${allowedValues.join("', '")}'`);
 
     const negativeNumberArg = (arg) => {
       // return false if not a negative number
+<<<<<<< HEAD
       if (!/^-(\d+|\d*\.\d+)(e[+-]?\d+)?$/.test(arg)) return false;
+=======
+      if (!/^-(\d+|\d*\.\d+)([eE][+-]?\d+)?$/.test(arg)) return false;
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
       // negative number is ok unless digit used as an option in command hierarchy
       return !this._getCommandAndAncestors().some((cmd) =>
         cmd.options
@@ -63540,7 +64695,11 @@ Expecting one of '${allowedValues.join("', '")}'`);
    * (This does not override a group set directly on the subcommand using .helpGroup().)
    *
    * @example
+<<<<<<< HEAD
    * program.commandsGroup('Development Commands:);
+=======
+   * program.commandsGroup('Development Commands:');
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
    * program.command('watch')...
    * program.command('lint')...
    * ...
@@ -63736,7 +64895,11 @@ Expecting one of '${allowedValues.join("', '")}'`);
    * Pass in false to disable the built-in help option.
    *
    * @example
+<<<<<<< HEAD
    * program.helpOption('-?, --help' 'show help'); // customise
+=======
+   * program.helpOption('-?, --help', 'show help'); // customise
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
    * program.helpOption(false); // disable
    *
    * @param {(string | boolean)} flags
@@ -63894,7 +65057,16 @@ function incrementNodeInspectorPort(args) {
   // Testing for these options:
   //  --inspect[=[host:]port]
   //  --inspect-brk[=[host:]port]
+<<<<<<< HEAD
   //  --inspect-port=[host:]port
+=======
+  //  --inspect-wait[=[host:]port]
+  //  --inspect-port=[host:]port
+  //
+  // Host can be an IP literal encapsulated within square brackets (e.g. [::1]),
+  // an IPv4 address in dotted-decimal form (e.g. 192.168.0.1), or a registered name.
+  // https://www.rfc-editor.org/rfc/rfc3986.html#section-3.2.2
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
   return args.map((arg) => {
     if (!arg.startsWith('--inspect')) {
       return arg;
@@ -63903,6 +65075,7 @@ function incrementNodeInspectorPort(args) {
     let debugHost = '127.0.0.1';
     let debugPort = '9229';
     let match;
+<<<<<<< HEAD
     if ((match = arg.match(/^(--inspect(-brk)?)$/)) !== null) {
       // e.g. --inspect
       debugOption = match[1];
@@ -63921,6 +65094,34 @@ function incrementNodeInspectorPort(args) {
       (match = arg.match(/^(--inspect(-brk|-port)?)=([^:]+):(\d+)$/)) !== null
     ) {
       // e.g. --inspect=localhost:1234
+=======
+    if ((match = arg.match(/^(--inspect(-brk|-wait)?)$/)) !== null) {
+      // e.g. --inspect
+      debugOption = match[1];
+    } else if (
+      (match = arg.match(
+        /^(--inspect(-brk|-port|-wait)?)=(\[[^\]]+\]|[^:]+)$/,
+      )) !== null
+    ) {
+      // Matches a host or a port, but not both. No colon to separate them.
+      debugOption = match[1];
+      if (/^\d+$/.test(match[3])) {
+        // Plain digits so a port number.
+        // e.g. --inspect=1234
+        debugPort = match[3];
+      } else {
+        // Assume a host.
+        // e.g. --inspect=localhost, --inspect=[::1], --inspect=192.168.0.1
+        debugHost = match[3];
+      }
+    } else if (
+      (match = arg.match(
+        /^(--inspect(-brk|-port|-wait)?)=(\[[^\]]+\]|[^:]+):(\d+)$/,
+      )) !== null
+    ) {
+      // Matched host:port pattern.
+      // e.g. --inspect=localhost:1234, --inspect=[::1]:1234, --inspect=192.168.0.1:1234
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
       debugOption = match[1];
       debugHost = match[3];
       debugPort = match[4];
@@ -63963,7 +65164,11 @@ function useColor() {
   return undefined;
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/commander@15.0.0/node_modules/commander/index.js
+=======
+;// ./node_modules/.pnpm/commander@15.1.0/node_modules/commander/index.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 /* unused harmony import specifier */ var commander_Argument;
 /* unused harmony import specifier */ var commander_Command;
 /* unused harmony import specifier */ var commander_Option;
@@ -63987,7 +65192,11 @@ const createArgument = (name, description) =>
 
 
 
+<<<<<<< HEAD
  // Deprecated
+=======
+
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 ;// ./src/server/component/add_configs_to_command.ts
 
@@ -64227,7 +65436,11 @@ function add_watch_command() {
     return command;
 }
 
+<<<<<<< HEAD
 ;// ./node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/zh-CN.js
+=======
+;// ./node_modules/.pnpm/zod@4.6.7/node_modules/zod/v4/locales/zh-CN.js
+>>>>>>> 78eb7a3ba462a0fa917dd6ac64129b4b43acd14c
 
 const zh_CN_error = () => {
     const Sizable = {
